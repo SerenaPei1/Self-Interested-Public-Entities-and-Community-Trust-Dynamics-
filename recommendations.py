@@ -7,7 +7,6 @@ import numpy as np
 
 
 # New function to provide service
-# TODO Naina: make this an RL policy learning algorithm
 # should happen according to entity_metric somehow
 
 def provide_service(G, rho, selfishness):
