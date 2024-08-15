@@ -1,0 +1,11 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# DS store
+.DS_Store
+
+# figures
+*.pdf
+
+# pycache
+*.pyc
