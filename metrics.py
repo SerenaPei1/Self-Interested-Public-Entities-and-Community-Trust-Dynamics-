@@ -2,7 +2,7 @@
 import networkx as nx
 import numpy as np
 
-''' TODO Naina: calculate utility each agent gets from the service '''
+
 def util(v, G, rho, selfishness):
     # TODO: make this depend on some quality of v
     # for now, dummy metric
@@ -11,7 +11,7 @@ def util(v, G, rho, selfishness):
 
     return satisfaction_prop*quality
 
-''' TODO Naina: the function that the public entity uses to make decisions'''
+
 # the public entity disburses its resources to community members in a way that minimally erodes trust
 # selfishness here represents the entity's willingness to provide poor quality service
 def entity_decision(G, rho, selfishness):
